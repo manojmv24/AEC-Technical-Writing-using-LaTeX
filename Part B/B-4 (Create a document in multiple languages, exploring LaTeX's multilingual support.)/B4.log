@@ -1,0 +1,159 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.9)  4 JAN 2024 09:50
+entering extended mode
+**./B4.tex
+(B4.tex
+LaTeX2e <2020-10-01> patch level 1
+L3 programming layer <2020-10-05> xparse <2020-03-03>
+("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Program Files\MiKTeX\tex/latex/base\size11.clo"
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+("C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+("C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
+Package: babel 2020/10/06 3.50 The Babel package
+
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
+File: babel.def 2020/10/06 3.50 Babel common definitions
+\babel@savecnt=\count183
+\U@D=\dimen139
+\l@babelnohyphens=\language79
+
+("C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count184
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX\tex/latex/babel-english\english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 108.
+)
+("C:\Users\Ananya Manoj\AppData\Roaming\MiKTeX\tex/generic/babel-french\french.
+ldf"
+Language: french 2023-12-19 v3.5r French support from the babel system
+Package babel Info: \l@acadian = using hyphenrules for french
+(babel)             (\language22) on input line 91.
+Package babel Info: \l@canadien = using hyphenrules for french
+(babel)             (\language22) on input line 92.
+\FB@stdchar=\count185
+Package babel Info: Making : an active character on input line 420.
+Package babel Info: Making ; an active character on input line 421.
+Package babel Info: Making ! an active character on input line 422.
+Package babel Info: Making ? an active character on input line 423.
+\FBguill@level=\count186
+\FBold@everypar=\toks17
+\FB@Mht=\dimen140
+\mc@charclass=\count187
+\mc@charfam=\count188
+\mc@charslot=\count189
+\std@mcc=\count190
+\dec@mcc=\count191
+\FB@parskip=\dimen141
+\listindentFB=\dimen142
+\descindentFB=\dimen143
+\labelindentFB=\dimen144
+\labelwidthFB=\dimen145
+\leftmarginFB=\dimen146
+\parindentFFN=\dimen147
+\FBfnindent=\dimen148
+)
+("C:\Users\Ananya Manoj\AppData\Roaming\MiKTeX\tex/latex/babel-german\german.ld
+f"
+Language: german 2021/02/27 v2.13 German support for babel (pre-1996 orthograph
+y)
+
+("C:\Users\Ananya Manoj\AppData\Roaming\MiKTeX\tex/latex/babel-german\germanb.l
+df"
+Language: germanb 2021/02/27 v2.13 German support for babel (pre-1996 orthograp
+hy)
+Package babel Info: Making " an active character on input line 139.
+)))
+("C:\Users\Ananya Manoj\AppData\Roaming\MiKTeX\tex/latex/carlisle\scalefnt.sty"
+) ("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count192
+\l__pdf_internal_box=\box47
+) (B4.aux)
+\openout1 = `B4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Info: Redefining \degres on input line 11.
+LaTeX Info: Redefining \up on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+
+[1
+
+{C:/Users/Ananya Manoj/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+(B4.aux) ) 
+Here is how much of TeX's memory you used:
+ 2324 strings out of 480224
+ 34927 string characters out of 2889893
+ 323888 words of memory out of 3000000
+ 18914 multiletter control sequences out of 15000+200000
+ 541968 words of font info for 44 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 52i,6n,62p,160b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Ananya Manoj\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecrm1095.pk> <C:\Users\Ananya Manoj\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Ananya Manoj\AppData\Local\MiKTe
+X\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Ananya Manoj\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
+Output written on B4.pdf (1 page, 32671 bytes).
+PDF statistics:
+ 106 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

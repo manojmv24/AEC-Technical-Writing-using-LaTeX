@@ -1,0 +1,35 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc} % For UTF-8 encoding
+\usepackage[T1]{fontenc}    % Font encoding
+\usepackage[english, french, german]{babel} % Multilingual support
+
+\title{Multilingual Document Example}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+% Select the language for a section
+\selectlanguage{english}
+\section{English Section}
+This section is in English. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+% Switch to another language
+\selectlanguage{french}
+\section{Section en français}
+Cette section est en français. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+% Switch to another language
+\selectlanguage{german}
+\section{Deutscher Abschnitt}
+Dieser Abschnitt ist auf Deutsch. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+% Revert back to the main language (English in this case)
+\selectlanguage{english}
+\section{Conclusion}
+This is the conclusion in English.
+
+\end{document}

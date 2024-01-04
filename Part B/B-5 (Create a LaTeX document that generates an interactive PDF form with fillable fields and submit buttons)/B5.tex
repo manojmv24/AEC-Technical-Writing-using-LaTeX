@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{hyperref}
+
+\title{Interactive PDF Form}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{Form}
+
+\section{Personal Information}
+\begin{tabular}{ll}
+\textbf{Name:} & \TextField[name=name, width=5cm]{} \\
+\textbf{Email:} & \TextField[name=email, width=5cm]{} \\
+\end{tabular}
+
+\section{Survey}
+\textbf{Do you enjoy using LaTeX?}\\
+\ChoiceMenu[radio, name=question1]{}{Yes=Yes, No=No}
+
+\section{Comments}
+\textbf{Your Comments:}\\
+\TextField[name=comments, multiline=true, width=12cm, height=3cm]{} 
+
+\section{Submit Form}
+\Reset{Reset}
+\end{Form}
+
+\end{document}

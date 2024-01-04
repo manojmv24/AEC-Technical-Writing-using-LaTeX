@@ -1,0 +1,81 @@
+\documentclass[11pt,a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} % For including figures
+\usepackage{tabularx} % For creating tables
+\usepackage{hyperref} % For hyperlinks
+\usepackage{natbib} % For bibliography
+\bibliographystyle{plain} % Set the bibliography style
+
+\title{Your Report Title}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+\chapter{Introduction}
+\label{chap:introduction}
+This chapter introduces the topic of the report.
+
+\section{Background}
+\label{sec:background}
+Background information about the report.
+
+\chapter{Main Content}
+\label{chap:maincontent}
+This chapter covers the main content of the report.
+
+\section{Data Analysis}
+\label{sec:dataanalysis}
+Discussion about data analysis.
+
+\subsection{Data Tables}
+\label{subsec:datatables}
+Tables can be included here.
+
+% Example table
+\begin{table}[h]
+\centering
+\caption{Sample Data Table}
+\label{tab:sampledatatable}
+\begin{tabular}{|c|c|c|}
+\hline
+Column 1 & Column 2 & Column 3 \\
+\hline
+Data 1 & Data 2 & Data 3 \\
+Data 4 & Data 5 & Data 6 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Data Figures}
+\label{subsec:datafigures}
+Figures can be included here.
+
+% Example figure
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{example-image}
+\caption{Sample Figure}
+\label{fig:samplefigure}
+\end{figure}
+
+\chapter{Conclusion}
+\label{chap:conclusion}
+The concluding remarks of the report.
+
+% Example bibliography
+\begin{thebibliography}{9}
+\bibitem{latexcompanion} 
+Michel Goossens, Frank Mittelbach, and Alexander Samarin. 
+\textit{The \LaTeX\ Companion}. 
+Addison-Wesley, Reading, Massachusetts, 1993.
+\end{thebibliography}
+
+\end{document}

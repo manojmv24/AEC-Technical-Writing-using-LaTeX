@@ -1,0 +1,87 @@
+\documentclass[11pt,a4paper]{article}
+
+% This template incorporates:
+% Font Styles: Usage of bold (\textbf) and italic (\textit) text styles.
+% Colors: Application of different text colors using \textcolor.
+% Hyperlinks: Email address formatted as a clickable hyperlink.
+% Spacing: Custom line spacing with the setspace package.
+% Margins: Adjusted document margins using the geometry package.
+
+% Basic packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % Better font
+\usepackage{graphicx}
+\usepackage{xcolor} % For color
+\usepackage{hyperref}
+
+% For custom spacing
+\usepackage{setspace}
+\setstretch{1.15} % Line spacing
+
+% Customizing margins
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+
+% Title and Author Information
+\title{\textbf{\Large Your Paper Title Here}}
+\author{
+	\textbf{Author Name} \\
+	\textit{Department Name} \\
+	\textit{University/Institution Name} \\
+	\textcolor{blue}{\href{mailto:email@example.com}{email@example.com}} % Email with hyperlink
+}
+\date{\textbf{\today}} % Date
+
+\begin{document}
+	
+	\maketitle
+	
+	\begin{abstract}
+		\noindent % No indentation for abstract
+		\textcolor{gray}{
+			This is the abstract of your document. Here you briefly summarize the main points, findings, and conclusions of your paper. It should be concise and informative, providing an overview of the content that follows.
+		}
+	\end{abstract}
+	
+	\section*{Introduction}
+	Introduce the topic of your paper here in \textbf{bold text}. Explain the background, the problem you are addressing, and the main objectives of your paper in \textit{italic text}.
+	
+	\subsection*{Subsection Title}
+	Detail specific aspects of the topic here. You can change the \textcolor{red}{color} of the text for emphasis.
+	
+	\section*{Literature Review}
+	Discuss relevant previous work by other authors in this section. A literature review typically surveys, summarizes, and analyzes published work on a topic.
+	
+	\subsection*{Subsection Title}
+	Break down different themes or aspects of the literature you are discussing.
+	
+	\section*{Methodology}
+	Describe the methods used in your research or analysis. This could include experimental methods, analytical models, or other approaches.
+	
+	\subsection*{Subsection Title}
+	Discuss specific parts of your methodology, such as data collection, experimental setup, etc.
+	
+	\section*{Results}
+	Present the findings of your research or analysis. Include data, observations, and any other relevant information.
+	
+	\subsection*{Subsection Title}
+	You might want to break down your results into different themes or categories.
+	
+	\section*{Discussion}
+	Interpret and discuss the significance of your results. Compare them with previous work, and discuss their implications.
+	
+	\subsection*{Subsection Title}
+	Discuss specific aspects of your results and their broader implications.
+	
+	\section*{Conclusion}
+	Summarize the main findings of your paper, their importance, and potential future work.
+	
+	\section*{Acknowledgments}
+	Acknowledge anyone who helped you with your research, including funders, advisors, or others.
+	
+	\begin{thebibliography}{9}
+		\bibitem{ref1}
+		\textbf{Author Name}, \textit{Paper Title}, Journal/Conference, Year.
+	\end{thebibliography}
+	
+\end{document}

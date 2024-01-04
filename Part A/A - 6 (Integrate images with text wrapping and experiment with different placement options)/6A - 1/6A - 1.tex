@@ -1,0 +1,42 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}  % Essential for including images
+\usepackage{wrapfig}   % For wrapping text around images
+\usepackage{lipsum}    % Generates dummy text
+
+\title{Document with Images and Text Wrapping}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\lipsum[1] % Dummy text
+
+% Wrapping text around an image; placement on the right side
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \centering
+  \includegraphics[width=0.48\textwidth]{example-image}
+  \caption{Image on the right}
+\end{wrapfigure}
+\lipsum[2-3] % More dummy text
+
+% Clear the floating objects to ensure a proper new section
+\clearpage
+
+\section{Another Section}
+\lipsum[4] % Dummy text
+
+% Wrapping text around an image; placement on the left side
+\begin{wrapfigure}{l}{0.5\textwidth}
+  \centering
+  \includegraphics[width=0.48\textwidth]{example-image}
+  \caption{Image on the left}
+\end{wrapfigure}
+\lipsum[5-6] % More dummy text
+
+\end{document}

@@ -1,0 +1,69 @@
+% Document class setup
+\documentclass[11pt,a4paper]{article}
+
+% Packages for encoding and font
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% TikZ package for drawing diagrams
+\usepackage{tikz}
+% TikZ libraries for geometric shapes and arrow styles
+\usetikzlibrary{shapes.geometric, arrows}
+
+% Document metadata
+\title{Document with a TikZ Flowchart}
+\author{Your Name}
+\date{\today}
+
+% Beginning of the document
+\begin{document}
+	
+	% Create the title
+	\maketitle
+	
+	% Section for the flowchart
+	\section{Flowchart Example}
+	
+	% Descriptive text
+	Below is an example of a basic flowchart created using TikZ:
+	
+	% Define styles for flowchart elements
+	\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!30]
+	\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+	\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+	\tikzstyle{arrow} = [thick,->,>=stealth]
+	
+	% Begin figure environment for the flowchart
+	\begin{figure}[h]
+		\centering % Center the figure in the text
+		
+		% Begin the TikZ picture environment
+		\begin{tikzpicture}[node distance=2cm]
+			
+			% Nodes of the flowchart
+			\node (start) [startstop] {Start};
+			\node (pro1) [process, below of=start] {Process 1};
+			\node (dec1) [decision, below of=pro1] {Decision 1};
+			\node (pro2a) [process, below of=dec1, left of=dec1] {Process 2A};
+			\node (pro2b) [process, below of=dec1, right of=dec1] {Process 2B};
+			\node (stop) [startstop, below of=dec1, yshift=-2cm] {Stop};
+			
+			% Arrows between nodes
+			\draw [arrow] (start) -- (pro1);
+			\draw [arrow] (pro1) -- (dec1);
+			\draw [arrow] (dec1) -| node[anchor=east] {yes} (pro2a);
+			\draw [arrow] (dec1) -| node[anchor=west] {no} (pro2b);
+			\draw [arrow] (pro2a) |- (stop);
+			\draw [arrow] (pro2b) |- (stop);
+			
+			% End of the TikZ picture environment
+		\end{tikzpicture}
+		
+		% Caption for the flowchart
+		\caption{A simple TikZ flowchart}
+		
+		% End of the figure environment
+	\end{figure}
+	
+	% End of the document
+\end{document}

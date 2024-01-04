@@ -1,0 +1,37 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{subcaption} % For creating subfigures
+
+\title{Document with Subfigures}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Subfigures Example}
+This section demonstrates the use of subfigures, each with its own caption.
+
+% Inserting subfigures
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{example-image-a}
+    \caption{First Subfigure}
+    \label{fig:sub1}
+  \end{subfigure}
+  \hfill % Adds horizontal space between figures
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{example-image-b}
+    \caption{Second Subfigure}
+    \label{fig:sub2}
+  \end{subfigure}
+  \caption{Two Subfigures}
+  \label{fig:subfigures}
+\end{figure}
+
+\end{document}

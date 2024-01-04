@@ -1,0 +1,27 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{float} % Provides the H placement specifier
+
+\title{Document with Basic Image Handling}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Basic Image Insertion}
+Here is an example of an image with custom size and positioning.
+
+% Inserting an image with specific width and centered
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{example-image}
+  \caption{Centered Image with Custom Width}
+  \label{fig:centeredimage}
+\end{figure}
+
+\end{document}

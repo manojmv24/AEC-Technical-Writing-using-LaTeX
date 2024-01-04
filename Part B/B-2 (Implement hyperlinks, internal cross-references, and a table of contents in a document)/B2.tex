@@ -1,0 +1,36 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref} % Enables hyperlinks
+\hypersetup{
+    colorlinks=true, % Colors links instead of ugly boxes
+    urlcolor=blue, % Color for external hyperlinks
+    linkcolor=blue, % Color for internal links
+    citecolor=blue % Color for citations
+}
+
+\title{Document with Hyperlinks and Cross-References}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents % Generates the table of contents
+\newpage % Starts a new page
+
+\section{Introduction}\label{sec:intro}
+This is the introduction section. You can refer back to this section by using the label \texttt{sec:intro}.
+
+\section{External Links}
+Visit \href{https://www.example.com}{Example Website} for more information. % An external hyperlink
+
+\section{Internal References}
+Refer back to the \hyperref[sec:intro]{Introduction section} for details. % An internal hyperlink
+
+\section{Conclusion}
+This is the conclusion. See Section \ref{sec:intro} on page \pageref{sec:intro} for the introduction.
+
+\end{document}

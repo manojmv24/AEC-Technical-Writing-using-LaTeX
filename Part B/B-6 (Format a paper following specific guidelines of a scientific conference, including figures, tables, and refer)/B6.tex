@@ -1,0 +1,75 @@
+\documentclass[10pt,twocolumn]{article} % Two-column layout
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} % Required for including images
+\usepackage{tabularx} % Required for tables
+\usepackage{natbib}   % Bibliography and citations
+\bibliographystyle{plainnat} % Set the bibliography style
+
+% Paper title and authors
+\title{Your Research Paper Title}
+\author{Author One \and Author Two \and Author Three}
+\date{Conference Name, Year}
+
+% Start of the document
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Your abstract text goes here. It should be a concise summary of your work.
+\end{abstract}
+
+\section{Introduction}
+Introduce your research, background, and motivation for the study.
+
+\section{Methodology}
+Describe the methods and materials used in your research.
+
+\section{Results}
+Present and discuss the results of your study.
+
+\subsection{Figures}
+Include and reference figures in your paper.
+
+% Example figure
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{example-image}
+\caption{Example figure caption.}
+\label{fig:example}
+\end{figure}
+
+Refer to Figure \ref{fig:example} in the text as needed.
+
+\subsection{Tables}
+Include and reference tables in your paper.
+
+% Example table
+\begin{table}[ht]
+\centering
+\caption{Example table caption.}
+\label{tab:example}
+\begin{tabular}{|c|c|c|}
+\hline
+Column 1 & Column 2 & Column 3 \\
+\hline
+Data 1 & Data 2 & Data 3 \\
+Data 4 & Data 5 & Data 6 \\
+\hline
+\end{tabular}
+\end{table}
+
+Refer to Table \ref{tab:example} in the text as needed.
+
+\section{Discussion}
+Discuss the implications of your findings.
+
+\section{Conclusion}
+Conclude your paper and suggest future work or implications.
+
+% Bibliography
+\bibliography{references} % references.bib is the name of our BibTeX file
+
+\end{document}

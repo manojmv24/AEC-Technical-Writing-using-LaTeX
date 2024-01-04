@@ -1,0 +1,73 @@
+\documentclass{beamer}
+
+% Theme choice:
+\usetheme{Madrid}
+\usecolortheme{default}
+
+% Multimedia package
+\usepackage{multimedia}
+
+% Document metadata
+\title{Sample Presentation}
+\subtitle{Using Beamer}
+\author{Your Name}
+\institute{Your Institute}
+\date{\today}
+
+\begin{document}
+	
+	% Title Page
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	% Table of Contents
+	\begin{frame}
+		\frametitle{Table of Contents}
+		\tableofcontents
+	\end{frame}
+	
+	% Section 1
+	\section{Introduction}
+	
+	% Slide 1
+	\begin{frame}
+		\frametitle{Introduction}
+		This is the introduction slide.
+		\pause % Adds a pause here
+		More content on the same slide after the pause.
+	\end{frame}
+	
+	% Section 2
+	\section{Multimedia}
+	
+	% Slide 2 - Including a Video
+	\begin{frame}{Including a Video}
+		Here's how to include a video in your presentation.
+		\movie[height = 0.5\textwidth, width = 0.8\textwidth, showcontrols]{}{video.mp4}
+		% Replace 'video.mp4' with the path to your video file
+	\end{frame}
+	
+	% Slide 3 - Including an Audio
+	\begin{frame}{Including an Audio}
+		Here's how to include audio in your presentation.
+		\movie[height = 0.3\textwidth, width = 0.5\textwidth, showcontrols]{}{audio.mp3}
+		% Replace 'audio.mp3' with the path to your audio file
+	\end{frame}
+	
+	% Conclusion Section
+	\section{Conclusion}
+	
+	% Slide 4
+	\begin{frame}
+		\frametitle{Conclusion}
+		This is the conclusion slide.
+	\end{frame}
+	
+	% Thank You Slide
+	\begin{frame}
+		\Huge{\centerline{Thank You!}}
+		\centerline{Questions?}
+	\end{frame}
+	
+\end{document}

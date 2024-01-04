@@ -1,0 +1,51 @@
+% Document class and basic settings
+\documentclass[11pt,a4paper]{article}
+
+% Packages for encoding, fonts, and colors in tables
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[table,xcolor]{xcolor} % Allows for color in tables
+\usepackage{multirow} % Enables the use of multirow cells in tables
+\usepackage{array}    % For advanced table formatting
+
+% Define custom colors to use in the table
+\definecolor{lightgray}{gray}{0.9}
+
+% Title settings
+\title{Document with a Complex Table}
+\author{Your Name}
+\date{\today} % Automatically insert the current date
+
+\begin{document}
+	
+	% Create the title
+	\maketitle
+	
+	% Begin a section
+	\section{Complex Table Example}
+	
+	% Descriptive text
+	Below is an example of a complex table with multi-row and multi-column spanning, including borders and color formatting.
+	
+	% Begin the table environment
+	\begin{table}[h]
+		\centering % Centers the table
+		\caption{Multi-row and Multi-column Table Example} % Table caption
+		\label{tab:example} % Label for referencing the table
+		
+		% Begin the tabular environment to create the actual table
+		\begin{tabular}{|c|c|c|c|}
+			\hline % Horizontal line at the top of the table
+			\rowcolor{lightgray} % Set the background color for the first row
+			% Create a header row with multicolumn spanning
+			\multicolumn{2}{|c|}{\textbf{Group Header 1}} & \multicolumn{2}{c|}{\textbf{Group Header 2}} \\ \hline
+			\textbf{Column 1} & \textbf{Column 2} & \textbf{Column 3} & \textbf{Column 4} \\ \hline
+			% Multirow cell spanning two rows
+			\multirow{2}{*}{Row 1-2} & Cell 1 & Cell 2 & Cell 3 \\ \cline{2-4} 
+			& Cell 4 & Cell 5 & Cell 6 \\ \hline
+			% Row with a multicolumn cell
+			Cell 7                   & Cell 8 & \multicolumn{2}{c|}{\cellcolor{lightgray}Multi-column} \\ \hline
+		\end{tabular}
+	\end{table}
+	
+\end{document}

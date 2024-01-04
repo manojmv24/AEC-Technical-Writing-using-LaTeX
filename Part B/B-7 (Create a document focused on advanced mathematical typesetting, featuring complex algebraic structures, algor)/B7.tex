@@ -1,0 +1,86 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsfonts, amsthm} % For math fonts, symbols and environments
+\usepackage{algorithm, algpseudocode} % For algorithms
+
+% Theorem Styles
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+
+% Custom operators
+\DeclareMathOperator{\Rank}{Rank}
+\DeclareMathOperator{\Span}{Span}
+
+\title{Advanced Mathematical Typesetting in LaTeX}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Introduction to advanced mathematical typesetting.
+
+\section{Complex Algebraic Structures}
+Examples of complex algebraic structures:
+
+\subsection{Matrices and Vectors}
+\begin{equation}
+    \mathbf{A} = 
+    \begin{pmatrix}
+        a_{11} & a_{12} \\
+        a_{21} & a_{22}
+    \end{pmatrix}, \quad
+    \mathbf{v} = 
+    \begin{pmatrix}
+        v_1 \\
+        v_2
+    \end{pmatrix}
+\end{equation}
+
+\subsection{Custom Operators}
+\begin{equation}
+    \Rank(\mathbf{A}), \quad \Span(\mathbf{v})
+\end{equation}
+
+\section{Theorems and Definitions}
+\begin{definition}[Euclidean Space]
+    A Euclidean space is a finite-dimensional inner product space.
+\end{definition}
+
+\begin{theorem}
+    Every finite-dimensional inner product space is a Euclidean space.
+\end{theorem}
+
+\begin{proof}
+    The proof is left as an exercise for the reader.
+\end{proof}
+
+\begin{remark}
+    This is an important theorem in linear algebra.
+\end{remark}
+
+\section{Algorithms}
+\begin{algorithm}
+\caption{Example Algorithm}
+\begin{algorithmic}[1]
+\Procedure{Example}{$a,b$}
+    \State $r \gets a \bmod b$
+    \While{$r \neq 0$}
+        \State $a \gets b$
+        \State $b \gets r$
+        \State $r \gets a \bmod b$
+    \EndWhile
+    \State \textbf{return} $b$
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+\end{document}
